@@ -26,7 +26,7 @@
 * write code with at least one programming language: 
     *  C++/ Java/ Python
 * classical problems:
-    * 0/1 knapsack (intro, solution)
+    * 0/1 knapsack ([intro](https://github.com/dedeco/write-a-better-code/blob/master/programming_skills/knapsack/intro.md) | [solution](https://github.com/dedeco/write-a-better-code/blob/master/programming_skills/knapsack/01_knapsack.py))
     * dijkstra
     * ...
 
