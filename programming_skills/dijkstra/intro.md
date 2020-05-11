@@ -65,13 +65,13 @@ For unreachable nodes, print -1
 1
 ```
 
-###Sample Output
+### Sample Output
 
 ```
 24 3 15
 ```
 
-###Explanation
+### Explanation
 
 The graph given in the test case is shown as :
 
