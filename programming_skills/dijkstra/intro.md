@@ -1,4 +1,4 @@
-#Dijkstra: Shortest Reach
+# Dijkstra: Shortest Reach
 
 Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is -1. 
 
@@ -15,7 +15,7 @@ Begin	End	Weight
 ```
 
 ![alt text][graph1]
-
+__
 Starting at node 1, the shortest path to 2 is direct and distance5. 
 Going from 1 to 3, there are two paths: 1 -> 2 -> 3 at a distance of 5+ 6 or 1 -> 3 at a distance 15. 
 Choose the shortest path, 11. 
