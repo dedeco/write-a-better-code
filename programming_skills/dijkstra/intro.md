@@ -15,7 +15,9 @@ Begin	End	Weight
 ```
 
 ![alt text][graph1]
-__
+
+______________
+
 Starting at node 1, the shortest path to 2 is direct and distance5. 
 Going from 1 to 3, there are two paths: 1 -> 2 -> 3 at a distance of 5+ 6 or 1 -> 3 at a distance 15. 
 Choose the shortest path, 11. 
@@ -26,7 +28,7 @@ There is no route to node 5, so the distance is -1.
 
 The distances to all nodes in increasing node order, omitting the starting node, are 5 11 13 -1.
 
-##Function Description
+## Function Description
 
 Complete the shortestReach function in the editor below. It should return an array of integers that represent the shortest distance to each node from the start node in ascending order of node number.
 
@@ -36,7 +38,7 @@ shortestReach has the following parameter(s):
  * edges: a 2D array of integers where each edges[i] consists of three integers that represent the start and end nodes of an edge, followed by its length
  * s: the start node number
 
-## Input Format
+### Input Format
 
 The first line contains t, the number of test cases.
 
@@ -45,13 +47,13 @@ Each test case is as follows:
 *  Each of the next lines contains three space-separated integers x, y, and r, the beginning and ending nodes of an edge, and the length of the edge.
 *  The last line of each test case has an integer s, denoting the starting position.
 
-#Output Format
+### Output Format
 
 For each of the t test cases, print a single line consisting n- 1 space separated integers denoting the shortest distance to the n-1 nodes from starting position s in increasing order of their labels, excluding s.
 
 For unreachable nodes, print -1
 
-###Sample Input
+### Sample Input
 
 ```
 1
