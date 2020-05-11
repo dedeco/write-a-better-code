@@ -3,7 +3,6 @@ def knapsack(capacity, weights, values):
     M = [[0 for x in range(capacity + 1)] for x in range(n + 1)]
 
     weights, values = zip(*sorted(zip(weights, values)))  #sort weights/values (referencing weights)
-    print(weights, values)
 
     for i in range(n + 1):
         for w in range(capacity + 1):
@@ -13,7 +12,6 @@ def knapsack(capacity, weights, values):
                 M[i][w] = max(M[i - 1][w], M[i - 1][w - weights[i - 1]] + values[i - 1])
             else:
                 M[i][w] = M[i - 1][w]
-    print(M)
     return M[n][capacity]
 
 
